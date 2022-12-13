@@ -6,7 +6,8 @@ const App = () => {
     <div>
       
       <header>
-        <h1>Cook Crossword</h1>
+        <h1><span id="cook-title">The Cook Family</span><br />
+          <span id="cross-title">Crossword</span></h1>
       </header>
 
       <Navbar />
