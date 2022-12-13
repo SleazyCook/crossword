@@ -1,0 +1,140 @@
+@import url('https://fonts.cdnfonts.com/css/english-towne');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body {
+  color: white;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  font-size: x-large;
+  color: black;
+  background-color: white;;
+}
+
+#cook-title {
+  font-family: 'English Towne';
+  /* font-size: xx-large; */
+}
+
+#cross-title {
+  font-family: 'Ultra';
+}
+
+.nav-return {
+  background-color: white;
+  height: 100px;
+  margin-top: -25px;
+  display: flex;
+}
+
+/* .burger-container {
+  border: 3px solid red;
+} */
+
+/* .burger-menu {
+  width: 100px;
+  background-color: lightblue;
+}
+
+.burger-line {
+  height: 0.4em;
+  width: 3em;
+  color: black;
+  border-radius: 0.5em;
+  z-index: 2;
+}
+
+nav a {
+  color: black;
+  font-size: 30px;
+} */
+
+#burger-house {
+
+  width: 100%;
+  height: 5em;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.burger-menu {
+  /* border: 5px solid white; */
+  height: 45px;
+  width: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.burger-bar {
+  width: 3em;
+  height: 0.4em;
+  background-color: rgb(255 255 255);
+  border-radius: 0.5em;
+  z-index: 2;
+}
+
+.menu {
+  /* width: 50%; */
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 200px;
+  height: 350px;
+  position: absolute;
+  left: 130px;
+  top: 235px;
+  margin-top: 20px;
+  margin-left: -125px;;
+  z-index: 0;
+  transition: ease-in-out;
+}
+
+.menu-item-odd {
+  background-color: white;
+  color: black;
+  font-size: xx-large;
+  width: 100px;
+  padding: 10px 65px 10px 65px;
+  margin-left: -3px;
+  text-decoration: none;
+}
+
+.menu-item-odd:hover {
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+  transition: 500ms;
+}
+
+.menu-item-even {
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  width: 100px;
+  padding: 10px 62px 10px 62px;
+  margin-left: -3px;
+  text-decoration: none;
+}
+
+.menu-item-even:hover {
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  transition: 500ms;
+
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+}
